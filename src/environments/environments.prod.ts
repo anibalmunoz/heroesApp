@@ -1,3 +1,3 @@
 export const environments = {
-  baseUrl: 'https://pendiente/api-pendiente',
+  baseUrl: 'http://localhost:3000',
 };
