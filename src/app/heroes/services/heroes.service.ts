@@ -19,4 +19,12 @@ export class HeroesService {
       .get<Hero>(`${this.baseUrl}/heroes/${id}`)
       .pipe(catchError((error) => of(undefined)));
   }
+
+  getSuggestions(query: string): Observable<Hero[]> {
+    return this.httpClient.get<Hero[]>(
+      ///Este url no me funcionó en postman 2 de mayo 2024 (no funciona el q= para buscar nombres de heroes)
+      // `${this.baseUrl}/heroes/?q=${query}&limit=6`
+      `${this.baseUrl}/heroes?superhero=${query}`
+    );
+  }
 }
