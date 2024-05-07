@@ -21,7 +21,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": "https://i.pinimg.com/736x/20/e9/9e/20e99e9e27a1e25917bc8d1968589a19.jpg"
     },
     {
       "id": "dc-flash",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "adf",
+      "superhero": "Anibal",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Munoz",
+      "first_appearance": "2021",
+      "characters": "Yulo",
+      "alt_img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/BlackHole_superheroe.jpg"
     }
   ]
 }
