@@ -85,6 +85,7 @@ export class NewPageComponent implements OnInit {
         this.router.navigateByUrl('/heroes');
       });
 
+    ///Forma correcta de hacerlo pero un poco distinto el código
     // dialogRef.afterClosed().subscribe((result) => {
     //   if (!result) return;
     //   this.heroesService
